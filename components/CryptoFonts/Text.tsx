@@ -8,157 +8,157 @@ const Text = ({ id }: Props) => {
   switch (id) {
     case 'A':
       return (
-        <div>
+        <div style={{ marginRight: -3, marginLeft: -3 }}>
           <Image src="images/A.png" />
         </div>
       );
     case 'B':
       return (
-        <div>
+        <div style={{ marginRight: -3, marginLeft: -3 }}>
           <Image src="images/B.png" />
         </div>
       );
     case 'C':
       return (
-        <div>
+        <div style={{ marginRight: -3, marginLeft: -3 }}>
           <Image src="images/C.png" />
         </div>
       );
     case 'D':
       return (
-        <div>
+        <div style={{ marginRight: -3, marginLeft: -3 }}>
           <Image src="images/D.png" />
         </div>
       );
     case 'E':
       return (
-        <div>
+        <div style={{ marginRight: -3, marginLeft: -3 }}>
           <Image src="images/E.png" />
         </div>
       );
     case 'F':
       return (
-        <div>
+        <div style={{ marginRight: -3, marginLeft: -3 }}>
           <Image src="images/F.png" />
         </div>
       );
     case 'G':
       return (
-        <div>
+        <div style={{ marginRight: -3, marginLeft: -3 }}>
           <Image src="images/G.png" />
         </div>
       );
     case 'H':
       return (
-        <div>
+        <div style={{ marginRight: -3, marginLeft: -3 }}>
           <Image src="images/H.png" />
         </div>
       );
     case 'I':
       return (
-        <div>
+        <div style={{ marginRight: -3, marginLeft: -3 }}>
           <Image src="images/I.png" />
         </div>
       );
     case 'J':
       return (
-        <div>
+        <div style={{ marginRight: -3, marginLeft: -3 }}>
           <Image src="images/J.png" />
         </div>
       );
     case 'K':
       return (
-        <div>
+        <div style={{ marginRight: -3, marginLeft: -3 }}>
           <Image src="images/K.png" />
         </div>
       );
     case 'L':
       return (
-        <div>
+        <div style={{ marginRight: -3, marginLeft: -3 }}>
           <Image src="images/L.png" />
         </div>
       );
     case 'M':
       return (
-        <div>
+        <div style={{ marginRight: -3, marginLeft: -3 }}>
           <Image src="images/M.png" />
         </div>
       );
     case 'N':
       return (
-        <div>
+        <div style={{ marginRight: -3, marginLeft: -3 }}>
           <Image src="images/N.png" />
         </div>
       );
     case 'O':
       return (
-        <div>
+        <div style={{ marginRight: -3, marginLeft: -3 }}>
           <Image src="images/O.png" />
         </div>
       );
     case 'P':
       return (
-        <div>
+        <div style={{ marginRight: -3, marginLeft: -3 }}>
           <Image src="images/P.png" />
         </div>
       );
     case 'Q':
       return (
-        <div>
+        <div style={{ marginRight: -3, marginLeft: -3 }}>
           <Image src="images/Q.png" />
         </div>
       );
     case 'R':
       return (
-        <div>
+        <div style={{ marginRight: -3, marginLeft: -3 }}>
           <Image src="images/R.png" />
         </div>
       );
     case 'S':
       return (
-        <div>
+        <div style={{ marginRight: -3, marginLeft: -3 }}>
           <Image src="images/S.png" />
         </div>
       );
     case 'T':
       return (
-        <div>
+        <div style={{ marginRight: -3, marginLeft: -3 }}>
           <Image src="images/T.png" />
         </div>
       );
     case 'U':
       return (
-        <div>
+        <div style={{ marginRight: -3, marginLeft: -3 }}>
           <Image src="images/U.png" />
         </div>
       );
     case 'V':
       return (
-        <div>
+        <div style={{ marginRight: -3, marginLeft: -3 }}>
           <Image src="images/V.png" />
         </div>
       );
     case 'W':
       return (
-        <div>
+        <div style={{ marginRight: -3, marginLeft: -3 }}>
           <Image src="images/W.png" />
         </div>
       );
     case 'X':
       return (
-        <div>
+        <div style={{ marginRight: -3, marginLeft: -3 }}>
           <Image src="images/X.png" />
         </div>
       );
     case 'Y':
       return (
-        <div>
+        <div style={{ marginRight: -3, marginLeft: -3 }}>
           <Image src="images/Y.png" />
         </div>
       );
     case 'Z':
       return (
-        <div>
+        <div style={{ marginRight: -3, marginLeft: -3 }}>
           <Image src="images/Z.png" />
         </div>
       );

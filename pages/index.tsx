@@ -1,44 +1,41 @@
-import { useRef, useEffect } from 'react';
+import { useRef, useEffect, useState } from 'react';
 import styled from '@emotion/styled';
 
 import CryptoFonts from 'components/CryptoFonts';
 
 export default function Home() {
+  const [value, setValue] = useState<string>('');
   const inputRef = useRef<any>(null);
 
+  const handleText = (e: any) => {
+    setValue(e.target.value);
+  };
   useEffect(() => {
     inputRef.current.focus();
   }, []);
   return (
     <Wrap>
-      <ImageBox>
-        <Input ref={inputRef} />
-        <CryptoFonts value="I Love BTS" />
-      </ImageBox>
+      <Input ref={inputRef} onChange={handleText} />
+      <CryptoFonts value={value ? value : 'input text...'} opacity={value ? 1 : 0.6} />
     </Wrap>
   );
 }
 
 const Wrap = styled.div`
-  .slick-next {
-    right: 25px !important;
-  }
-  .slick-prev {
-    left: 25px !important;
-    z-index: 1;
-  }
+  width: 100%;
   height: 100vh;
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 `;
 
-const ImageBox = styled.div`
+const Input = styled.textarea`
+  background-color: #eee;
+  height: 50px;
+  font-size: 50px;
   position: absolute;
   z-index: 10;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-`;
-
-const Input = styled.input`
-  /* display: none; */
+  opacity: 0.1;
+  text-align: center;
 `;

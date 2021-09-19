@@ -4,10 +4,11 @@ import Text from './Text';
 
 interface Props {
   value: string;
+  opacity: number;
 }
-const Fonts = ({ value }: Props) => {
+const Fonts = ({ value, opacity }: Props) => {
   return (
-    <TextWrap>
+    <TextWrap style={{ opacity: opacity }}>
       {value.split('').map((id: any, idx: number) => {
         return <Text key={idx} id={id.toUpperCase()} />;
       })}
